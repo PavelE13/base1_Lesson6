@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4966F2F1-6D70-445F-8559-C12B29D3BE7E}</ProjectGuid>
+    <ProjectGuid>{16D777EF-184C-4256-A0AC-D5B63F1C8438}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>base1_Lesson6</RootNamespace>
-    <AssemblyName>base1_Lesson6</AssemblyName>
+    <RootNamespace>base2_Lesson6</RootNamespace>
+    <AssemblyName>base2_Lesson6</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,30 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="base2_Lesson6\obj\Debug\.NETFramework,Version=v4.6.1.AssemblyAttributes.cs" />
-    <Compile Include="base2_Lesson6\Program.cs" />
-    <Compile Include="base2_Lesson6\Properties\AssemblyInfo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="base2_Lesson6\App.config" />
-    <None Include="base2_Lesson6\base2_Lesson6.csproj" />
-    <None Include="base2_Lesson6\bin\Debug\base2_Lesson6.exe.config" />
-    <None Include="base2_Lesson6\obj\Debug\base2_Lesson6.csproj.AssemblyReference.cache" />
-    <None Include="base2_Lesson6\obj\Debug\base2_Lesson6.csproj.CoreCompileInputs.cache" />
-    <None Include="base2_Lesson6\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="base2_Lesson6\bin\Debug\base2_Lesson6.exe" />
-    <Content Include="base2_Lesson6\bin\Debug\base2_Lesson6.pdb" />
-    <Content Include="base2_Lesson6\obj\Debug\base2_Lesson6.csproj.FileListAbsolute.txt" />
-    <Content Include="base2_Lesson6\obj\Debug\base2_Lesson6.exe" />
-    <Content Include="base2_Lesson6\obj\Debug\base2_Lesson6.pdb" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="base2_Lesson6\obj\Debug\TempPE\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
